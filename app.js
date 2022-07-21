@@ -56,9 +56,9 @@ const transporter = nodemailer.createTransport({
       transporter.sendMail(mail, (err, data) => {
         if (err) {
           console.log(err);
-          res.status(500).send("Something went wrong.");
+          res.status(500).sendFile(__dirname + '/public/failed.html')
         } else {
-          res.status(200).send("Email successfully sent to recipient!");
+          res.status(200).sendFile(__dirname + '/public/send.html')
         }
       });
     });

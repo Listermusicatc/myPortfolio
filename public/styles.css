@@ -845,3 +845,30 @@ textarea:focus, input:focus {
 
 }
 
+/* send.thml */
+
+.sent{
+  background-color: #94fea1e4;
+}
+#send{
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(#07020a, #34267D)
+}
+
+/* faid.html */
+.failed{
+  background-color: #f28787e4;
+}
+#fail{
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(#07020a, #34267D)
+}
+
