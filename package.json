@@ -10,8 +10,20 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "multiparty": "^4.2.3",
+    "nodemailer": "^6.7.7",
     "nodemon": "^2.0.19",
     "request": "^2.88.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Listermusicatc/myPortfolio.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Listermusicatc/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/Listermusicatc/myPortfolio#readme"
 }
