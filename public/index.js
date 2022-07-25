@@ -196,3 +196,15 @@ const sendMail = (mail) => {
     return response.json();
   });
 };
+
+
+// download button
+
+
+const download = document.getElementById("download");
+
+download.addEventListener('click', request);
+
+function request() {
+    window.location = 'alistair.pdf';
+}
