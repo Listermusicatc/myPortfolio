@@ -110,3 +110,42 @@ menu button:hover span:last-of-type {transform: translate(-50%,-50%)}
 menu button span.offset-1 {margin-top: -1px}
 menu button span.offset-3 {margin-top: -3px}
 menu button span.offset-10 {margin-top: -10px}
+
+@media screen and (max-width: 500px) {
+
+
+	.col-3 {
+		flex: 0 0 auto;
+		width: 90% !important;
+	}
+
+
+	.secondrow {
+		background-color: aliceblue;
+		position: absolute;
+		top: 95%;
+		left: 6%;
+		margin: 0;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.col-7 {
+		flex: 0 0 auto;
+		width: 90% !important;
+	}
+
+
+
+	.row>* {
+		flex-shrink: 0;
+		/* width: 100%; */
+		max-width: 100%;
+		padding-right: calc(var(--bs-gutter-x) * .5);
+		padding-left: calc(var(--bs-gutter-x) * .5);
+		margin-top: var(--bs-gutter-y);
+	}
+
+
+
+
+}
