@@ -1,3 +1,6 @@
+
+// the DOM
+
 var menuBtn = document.querySelector('.menu-btn');
 var nav = document.querySelector('nav');
 var lineOne = document.querySelector('nav .menu-btn .line--1');
@@ -12,10 +15,11 @@ menuBtn.addEventListener('click', () => {
     link.classList.toggle('fade-in');
 })
 
-/*sticky navbar js */
+// making the navbar sticky
+
 
 window.onscroll = function() {myFunction()};
-var navbar = document.getElementById('navbar');
+var navbar = document.getElementsByClassName('Navbar');
 var sticky = navbar.offsetTop;
 function myFunction() {
   if (window.pageXOffset >= sticky ){
@@ -24,16 +28,8 @@ function myFunction() {
     navbar.classList.remove('sticky')
   }
 }
-// preloader
 
-var loader = document.getElementById('preloader')
-
-window.addEventListener('load', function(){
-  loader.style.display = 'none'
-})
-
-
-/* background*/
+// animation on the navbar
 
 class Canvas{
     constructor(canvas) {
@@ -148,65 +144,4 @@ class Canvas{
     
     
   }
-  new Canvas(document.getElementById('canvas'));
-  console.log(document.getElementById('canvas'))
-  console.log("world")
-
-  //about animation
-
-  jQuery(document).ready(function($) {
-
-    //Count nr. of square classes
-    var countSquare = $('.square').length;
-  
-    //For each Square found add BG image
-    for (i = 0; i < countSquare; i++) {
-      var firstImage = $('.square').eq([i]);
-      var secondImage = $('.square2').eq([i]);
-  
-      var getImage = firstImage.attr('data-image');
-      var getImage2 = secondImage.attr('data-image');
-  
-      firstImage.css('background-image', 'url(' + getImage + ')');
-      secondImage.css('background-image', 'url(' + getImage2 + ')');
-    }
-  
-  });
-  // reveal on scroll
-
-//get the form by its id
-const form = document.getElementById("contact-form"); 
-
-//1.
-const formEvent = form.addEventListener("submit", (event) => {
-  event.preventDefault();
-
-  //2.
-  let mail = new FormData(form);
-
-  //3.
-  sendMail(mail);
-})
-
-const sendMail = (mail) => {
-  //1.
-  fetch("/send", {
-    method: "post", //2.
-    body: mail, //3.
-
-  }).then((response) => {
-    return response.json();
-  });
-};
-
-
-// download button
-
-
-const download = document.getElementById("download");
-
-download.addEventListener('click', request);
-
-function request() {
-    window.location = 'alistair.pdf';
-}
+  new Canvas(document.getElementsByClassName('canvas'));
