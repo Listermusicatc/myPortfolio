@@ -1,0 +1,44 @@
+[debug] [2022-12-30T21:30:32.038Z] ----------------------------------------------------------------------
+[debug] [2022-12-30T21:30:32.040Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ali Chitambo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-12-30T21:30:32.041Z] CLI Version:   11.19.0
+[debug] [2022-12-30T21:30:32.041Z] Platform:      win32
+[debug] [2022-12-30T21:30:32.041Z] Node Version:  v18.12.1
+[debug] [2022-12-30T21:30:32.042Z] Time:          Fri Dec 30 2022 23:30:32 GMT+0200 (South Africa Standard Time)
+[debug] [2022-12-30T21:30:32.043Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-30T21:30:32.050Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-12-30T21:30:32.161Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-30T21:30:32.161Z] > authorizing via signed-in user (listermusicatc@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Ali Chitambo\Documents\mySitePort
+
+[debug] [2022-12-30T21:30:33.229Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-12-30T21:30:33.230Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-30T21:32:27.451Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-12-30T21:32:28.362Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-12-30T21:32:28.362Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project listermusicatc-7e99f (Listermusicatc) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-12-30T21:33:37.038Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-12-30T21:33:37.570Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200

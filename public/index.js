@@ -129,7 +129,7 @@ class Canvas{
       this.ctx.moveTo(-(this.width / 2), -5);
       this.ctx.lineTo( this.width / 2, -5);
       this.ctx.lineWidth = Math.pow(this.getDistance() / (Math.abs(Math.sin(this.sine / 200) * 300)), 3.5);   
-      this.ctx.strokeStyle = "#7D55D7";
+      this.ctx.strokeStyle = "#EA1BC8";
       this.ctx.stroke();
       
       this.ctx.restore();
@@ -209,4 +209,11 @@ download.addEventListener('click', request);
 
 function request() {
     window.location = 'alistair.pdf';
+}
+
+
+
+
+function onload(){
+  document.getElementById('stack').innerHTML = "Alistair"
 }

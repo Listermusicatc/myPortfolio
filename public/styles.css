@@ -5,6 +5,7 @@
   position: fixed;
   z-index: 1000;
   background: rgb(255, 255, 255) url(images/mygif.gif) no-repeat center center;
+  color: #fc32cd;
 }
 
 
@@ -149,7 +150,7 @@ nav .nav-links .link:hover {
   top: 50%;
   left: 45%;
   transform: translate(-50%, -50%);
-  color: rgba(20, 255, 235, 0.8);
+  color: rgba(177, 0, 189, 0.8);
   font-family: sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
