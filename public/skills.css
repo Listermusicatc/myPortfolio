@@ -1,0 +1,85 @@
+
+
+#NewSkills {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    /* background-image: linear-gradient(#07020a, #34267D) */
+    background: rgb(53, 3, 56);
+    background: -moz-linear-gradient(293deg, rgba(53, 3, 56, 1) 0%, rgba(8, 7, 41, 1) 90%);
+    background: -webkit-linear-gradient(293deg, rgba(53, 3, 56, 1) 0%, rgba(8, 7, 41, 1) 90%);
+    background: linear-gradient(90deg, rgba(53, 3, 56, 1) 0%, rgba(8, 7, 41, 1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#350338", endColorstr="#080729", GradientType=1);
+  }
+  
+  .conSkill {
+    text-align: center;
+  
+  
+  }
+  
+  .con1 {
+    position: relative;
+    margin: auto;
+    margin-top: 15%;
+    margin-right: 50%;
+  
+  }
+  
+  .con2 {
+    position: relative;
+    padding-top: 40%;
+    margin-left: 60%;
+  }
+
+  
+
+/* 
+
+  <div>
+  <div class="con0">
+    <h1 class="conSkill"><strong>SKILLS</strong></h1>
+  </div>
+  <div>
+    <div class="con1">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="492.104"
+        height="467.249" viewBox="0 0 492.104 467.249">
+        <defs>
+          <linearGradient id="linear-gradient" x1="0.809" y1="0.148" x2="0.5" y2="1"
+            gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#cc15a1" />
+            <stop offset="1" stop-color="#230b66" />
+          </linearGradient>
+        </defs>
+        <g id="Untitled-1" transform="translate(-2426.099 -3669.888)">
+          <path id="Path_6" data-name="Path 6"
+            d="M733.881,1115.024c0-5.216.8-2.129-24.679-3.059H255.266a9.52,9.52,0,0,0-9.6,9.44v22.084l-3.881,428.638c0,8.51,3.058,8.885,12.155,3.2l12.962-8.6c6.253-5.2,7.728-5.278,8.236-8.226l2.6-405.576a9.525,9.525,0,0,1,9.6-9.44l408.155-.236c-19.937-.624,9.5,1.769,14.2-3.073Z"
+            transform="translate(2184.319 2558)" fill="url(#linear-gradient)" />
+        </g>
+      </svg>
+
+    </div>
+    <div class="con2">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="492.104"
+        height="467.249" viewBox="0 0 492.104 467.249">
+        <defs>
+          <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#8d0ab4" />
+            <stop offset="1" stop-color="#050853" />
+          </linearGradient>
+        </defs>
+        <g id="Untitled-1" transform="translate(2918.203 4137.136) rotate(-180)">
+          <path id="Path_6" data-name="Path 6"
+            d="M733.881,1115.024c0-5.216.8-2.129-24.679-3.059H255.266a9.52,9.52,0,0,0-9.6,9.44v22.084l-3.881,428.638c0,8.51,3.058,8.885,12.155,3.2l12.962-8.6c6.253-5.2,7.728-5.278,8.236-8.226l2.6-405.576a9.525,9.525,0,0,1,9.6-9.44l408.155-.236c-19.937-.624,9.5,1.769,14.2-3.073Z"
+            transform="translate(2184.319 2558)" fill="url(#linear-gradient)" />
+        </g>
+      </svg>
+
+    </div>
+  </div>
+
+</div>
+
+ */
