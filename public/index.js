@@ -217,3 +217,16 @@ function request() {
 function onload(){
   document.getElementById('stack').innerHTML = "Alistair"
 }
+
+
+
+$(".accordion-link").click(function( evt ) {
+
+   evt.preventDefault();       // prevents browser's default anchor behavior
+
+   // Other code here....
+   $(".accordion-link").hide();            // HIDE ALL     .page
+   $("."+ this.id ).show();      // SHOW RELATED .(id)
+});
+
+
