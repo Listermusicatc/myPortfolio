@@ -1490,3 +1490,31 @@ input:focus {
       color: #c50070;
   }
 }
+
+/* mobile screen */
+
+@media only screen and (min-width: 375px) and (max-width: 767px) { 
+
+  /* nav bar  */
+
+/* about page */
+#about {
+  height: 89vh;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: rgb(53, 3, 56);
+  background: -moz-linear-gradient(200deg, rgba(53, 3, 56, 1) 24%, rgba(8, 7, 41, 1) 61%, rgba(8, 7, 41, 1) 88%);
+  background: -webkit-linear-gradient(200deg, rgba(53, 3, 56, 1) 24%, rgba(8, 7, 41, 1) 61%, rgba(8, 7, 41, 1) 88%);
+  background: linear-gradient(200deg, rgba(53, 3, 56, 1) 24%, rgba(8, 7, 41, 1) 61%, rgba(8, 7, 41, 1) 88%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#350338", endColorstr="#080729", GradientType=1);
+}
+.myparag {
+  position: absolute;
+  padding-top: 10px;
+  padding: 2px;
+  left: 56px;
+}
+
+ }

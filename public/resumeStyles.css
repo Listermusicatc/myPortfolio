@@ -3,7 +3,7 @@ body{
     background-color: lightgrey;
 }
 #home{
-	height: 122vh;
+	height: 126vh;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -126,16 +126,19 @@ menu button span.offset-10 {margin-top: -10px}
 @media screen and (max-width: 500px) {
 
 
+	#home{
+		height: 275vh;
+	}
 	.col-3 {
 		flex: 0 0 auto;
 		width: 90% !important;
 	}
 
-
+	
 	.secondrow {
 		background-color: aliceblue;
 		position: absolute;
-		top: 95%;
+		top: 120%;
 		left: 6%;
 		margin: 0;
 		font-family: 'Roboto Condensed', sans-serif;
@@ -161,3 +164,103 @@ menu button span.offset-10 {margin-top: -10px}
 
 
 }
+@media only screen and (max-width: 360px) {
+
+
+	#home{
+		height: 278vh;
+	}
+	.col-3 {
+		flex: 0 0 auto;
+		width: 90% !important;
+	}
+
+	
+	.secondrow {
+		background-color: aliceblue;
+		position: absolute;
+		top: 120%;
+		left: 6%;
+		margin: 0;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.col-7 {
+		flex: 0 0 auto;
+		width: 90% !important;
+	}
+
+
+
+	.row>* {
+		flex-shrink: 0;
+		/* width: 100%; */
+		max-width: 100%;
+		padding-right: calc(var(--bs-gutter-x) * .5);
+		padding-left: calc(var(--bs-gutter-x) * .5);
+		margin-top: var(--bs-gutter-y);
+	}
+
+
+
+
+}
+/* folds */
+@media only screen and (max-width: 280px) {
+
+
+	#home{
+		height: 326vh;
+	}
+	.col-3 {
+		flex: 0 0 auto;
+		width: 90% !important;
+	}
+
+	
+	.secondrow {
+		background-color: aliceblue;
+		position: absolute;
+		top: 130%;
+		left: 6%;
+		margin: 0;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.col-7 {
+		flex: 0 0 auto;
+		width: 90% !important;
+	}
+
+
+
+	.row>* {
+		flex-shrink: 0;
+		/* width: 100%; */
+		max-width: 100%;
+		padding-right: calc(var(--bs-gutter-x) * .5);
+		padding-left: calc(var(--bs-gutter-x) * .5);
+		margin-top: var(--bs-gutter-y);
+	}
+
+
+
+
+}
+
+/* iphone se */
+@media only screen and (min-width: 375px) and (max-width: 767px) { 
+
+	#home{
+		height: 125rem;
+	}
+
+	.secondrow {
+		background-color: aliceblue;
+		position: absolute;
+		top: 55rem;
+		left: 6%;
+		margin: 0;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+ }
