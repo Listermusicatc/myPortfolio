@@ -28,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/Listermusicatc/myPortfolio/issues"
   },
-  "homepage": "https://github.com/Listermusicatc/myPortfolio#readme"
+  "homepage": "https://github.com/Listermusicatc/myPortfolio#readme",
+  "devDependencies": {}
 }
