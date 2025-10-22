@@ -1,25 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects – Alistair Chitambo</title>
+  <meta name="theme-color" content="#0b0f17" />
+  <link rel="stylesheet" href="projects.css" />
 </head>
 
 <body>
-    <section id="homePro">
-        <h1 class="proNeon">
-            Coming Back Soon
-        </h1>
-        <h2 class="whyThis">
-            I’m excited to share my work with you! Unfortunately, the page you’re looking for isn’t available
-        </h2>
-    </section>
+  <header class="pj-header">
+    <h1 class="pj-h1">Projects</h1>
+    <p class="pj-sub">A few things I’ve built and designed.</p>
+  </header>
 
-    <script src="./index.js"></script>
+  <section class="projects-teaser">
+    <div class="pj-grid">
+
+      <!-- ✅ Unlocked Project -->
+      <article class="pj-card">
+        <div class="pj-media" style="--thumb:url('thumbs/resume-optimizer.png')" aria-hidden="true"></div>
+        <div class="pj-live">LIVE</div>
+        <div class="pj-body">
+          <h3 class="pj-title">AI Resume Optimizer</h3>
+          <p class="pj-desc">
+            React + TypeScript + Firebase. Smart keyword extraction, live preview, and ATS-optimized templates.
+          </p>
+          <div class="pj-tags"><span>React</span><span>TypeScript</span><span>Firebase</span></div>
+          <a href="https://aioresume.com" target="_blank" rel="noopener" class="pj-link">
+            View Project →
+          </a>
+        </div>
+      </article>
+
+      <!-- Locked Project -->
+      <article class="pj-card is-locked">
+        <div class="pj-media" style="--thumb:url('thumbs/fitmax.jpg')" aria-hidden="true"></div>
+        <div class="pj-body">
+          <h3 class="pj-title">FitMax</h3>
+          <p class="pj-desc">Cross-platform fitness & nutrition tracker with reminders and analytics.</p>
+          <div class="pj-tags"><span>Flutter</span><span>Firebase</span><span>UX</span></div>
+        </div>
+        <div class="pj-lock">
+          <svg width="18" height="18" viewBox="0 0 24 24">
+            <path d="M17 8h-1V6a4 4 0 0 0-8 0v2H7a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Zm-6 10v-2h2v2h-2Zm3-10H10V6a2 2 0 0 1 4 0v2Z" fill="currentColor"/>
+          </svg>
+          <span>Case study coming soon</span>
+        </div>
+      </article>
+
+      <article class="pj-card is-locked">
+        <div class="pj-media" style="--thumb:url('thumbs/erosmodels.png')" aria-hidden="true"></div>
+        <div class="pj-live">LIVE</div>
+        <div class="pj-body">
+          <h3 class="pj-title">ErosModels</h3>
+          <p class="pj-desc"> Model portfolio + admin dashboard, Firebase Storage, event galleries.</p>
+          <div class="pj-tags"><span>Next.js</span><span>TypeScript</span><span>Firebase</span></div>
+          <a href="https://erosvisionmodels.com/" target="_blank" rel="noopener" class="pj-link">
+            View Project →
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="pj-cta">
+      <a class="pj-btn" href="mailto:alichitambo@gmail.com">Request portfolio PDF</a>
+      <a class="pj-btn ghost" href="https://www.linkedin.com/in/alistair-chitambo-bab27b234/" target="_blank" rel="noreferrer">LinkedIn</a>
+    </div>
+  </section>
 </body>
-
 </html>
